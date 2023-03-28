@@ -1,3 +1,4 @@
+import java.util.*;
 interface A11{
 	public static final int A = 1;
 	public static int B = 2;
@@ -14,8 +15,10 @@ interface A11{
 
 public class JavaGod0327_3{
     public static void main(String[] args) {
-        
-        A11.Inner11 ai = new A11.Inner11();
+        Scanner in = new Scanner(System.in);
+		
+		A11.Inner11 ai = new A11.Inner11();
+		
+		
 	}
-    }
 }
